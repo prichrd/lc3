@@ -1,8 +1,7 @@
 module github.com/prichrd/lc3
 
-go 1.14
+go 1.20
 
-require (
-	github.com/eiannone/keyboard v0.0.0-20200508000154-caf4b762e807
-	golang.org/x/sys v0.0.0-20200908134130-d2e65c121b96 // indirect
-)
+require github.com/eiannone/keyboard v0.0.0-20220611211555-0d226195f203
+
+require golang.org/x/sys v0.6.0 // indirect
